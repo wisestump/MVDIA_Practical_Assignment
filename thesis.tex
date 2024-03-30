@@ -69,7 +69,7 @@
 
 \title{Practical Assignment Report}
 
-\author{Tornike Onoprishvili, Aleksandr Algasov}
+\author{Tornike Onoprishvili, Aleksandr Algasov (002108683)}
 
 %\Major{Computer Vision and Pattern Recognition}
 
@@ -87,8 +87,6 @@
 
 % Thesis statistics for the abstract: number of pages, figures, tables, and appendices.
 
-\addtostats{, 2 figures, 1 table, 2 appendices}
-
 \begin{document}
 \selectlanguage{english}
 
@@ -97,31 +95,19 @@
 
 \begin{abstract}
 
-This is the abstract of the LaTeX template. The template contains a lot of writing instructions. 
-This page is an abstract in English (Page 2).
-Only the Finnish speaking students need to write also the abstract in Finnish (Page 3).
-Present here the main items of your thesis: background, objectives, delimitations, results, and the main conclusions. 
-Remember that the reader should be able to understand the abstract as it is. 
-So there should not be any references or any need to read something else. 
-Prefer short sentences and motive the reader to become interested in your work. 
-Remember also that the abstract is separate from the rest of your thesis. 
-So, for example, you should not assume that the abstract is a part of the introduction chapter, or vice versa.
-The length of the abstract page is one page only so it should fit to one page (this page).
-Moreover, the abstract text is one paragraph only, not two or many paragraphs. 
-Use the passive form instead of the active form in the presentation, such as “this study focuses on intelligent computing applications”, not as “I studied intelligent computing applications” or “We studied intelligent computing applications”.
+The topic of the practical assignment is micro gesture recognition and classification. The dataset presented consists of 32 classes. Each class has several videos, represented by series of frames. The frames contain a single person doing a gesture over time. The faces of people in the frames are blurred.
+
+The task is to provide a pre-trained model for the gesture recognition, along with the instructions to run it on test dataset.
+
+Work division was done as following:
+
+\begin{itemize}
+    \item Aleksandr: implementation of movenet+GRU/LSTM classifier, documentation
+    \item Tornike: implementation of ViT-based classifier, documentation
+\end{itemize}
 
 \end{abstract}
 
-
-\begin{preface}
-
-The author can decide the contents of this page. Usually the place of work and related people (supervisors, collaborators, friends, relatives, etc.) are acknowledged.
-
-I would like to thank my supervisors ...friends ... family ...
-
-Lappeenranta, \today
-
-\end{preface}
 
 
 % These name-definitions must be after Babel language change

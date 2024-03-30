@@ -156,7 +156,6 @@
     \schoolen\\
     \EmitSchool\\
     \EmitMScProgram\\
-    \EmitMajor
 
     \vspace{55mm}
 
@@ -209,12 +208,12 @@
   \textbf{\@title}\par
   \EmitDoctype\par
   \EmitYear\par
-  \pageref{LastPage} pages\Emitaddtostats.\par
-  \begin{personlist}{\ExaminerTitle:}
-  \EmitExaminer
-  \end{personlist}\par
-  Keywords: \EmitKeywords
-  \par
+  % \pageref{LastPage} pages\Emitaddtostats.\par
+  % \begin{personlist}{\ExaminerTitle:}
+  % \EmitExaminer
+  % \end{personlist}\par
+  % Keywords: \EmitKeywords
+  % \par
 }{%
 }
 
