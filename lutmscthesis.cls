@@ -111,7 +111,7 @@
 \MakeStringVar[Laskennallinen tekniikka ja teknillinen fysiikka]{MScProgramfin}
 \MakeStringVar[Lappeenranta]{City}
 
-\MakeStringVar[Master's Thesis]{Doctype}
+\MakeStringVar[Practical Assignment Report]{Doctype}
 \MakeStringVar[Diplomity\"o]{Doctypefin}
 
 \MakeStringVar{titlefin}
@@ -171,13 +171,13 @@
 
     \vspace{\stretch{2}}
 
-    \begin{personlist}{\ExaminerTitle:}
-    \EmitExaminer
-    \end{personlist}
+    % \begin{personlist}{\ExaminerTitle:}
+    % \EmitExaminer
+    % \end{personlist}
 
-    \begin{personlist}{\SupervisorTitle:}
-    \EmitSupervisor
-    \end{personlist}
+    % \begin{personlist}{\SupervisorTitle:}
+    % \EmitSupervisor
+    % \end{personlist}
 
     \vspace{\stretch{1}}
   \end{flushleft}%
@@ -203,10 +203,10 @@
   \schoolen\\
   \EmitSchool\\
   \EmitMScProgram\\
-  \EmitMajor\par
+  % \EmitMajor\par
   \@author\par
   \textbf{\@title}\par
-  \EmitDoctype\par
+  % \EmitDoctype\par
   \EmitYear\par
   % \pageref{LastPage} pages\Emitaddtostats.\par
   % \begin{personlist}{\ExaminerTitle:}
